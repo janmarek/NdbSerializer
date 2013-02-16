@@ -1,0 +1,16 @@
+parameters:
+
+php:
+  date.timezone: Europe/Prague
+  # session.save_path: "%tempDir%/sessions"
+  # zlib.output_compression: yes
+
+nette:
+  database:
+    default:
+      dsn: '%database.driver%:host=%database.host%;dbname=%database.dbname%'
+      user: %database.user%
+      password: %database.password%
+
+services:
+  database: @Nette\Database\Connection

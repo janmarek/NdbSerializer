@@ -1,0 +1,23 @@
+{
+	"name": "janmarek/ndbserializer",
+	"description": "Serializer for Nette database",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jan Marek",
+			"email": "mail@janmarek.net"
+		}
+	],
+	"require": {
+		"nette/nette": "2.0.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"NdbSerializer": ""
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"janmarek/mockista": "1.0.*"
+	}
+}
